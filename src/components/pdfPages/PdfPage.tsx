@@ -1,7 +1,7 @@
 import React from 'react'
 
 function FirstPage( {data} : any) {
-console.log(data);
+  
   const ref : any = React.createRef();
   
   return (
@@ -33,7 +33,7 @@ console.log(data);
             <br />
           </div>}
           {data.products &&
-          <table style={{width: "100%", fontSize: "1.1rem", marginTop: "50px"}}>
+          <table style={{width: "100%", fontSize: "1.1rem", marginTop: "50px", borderCollapse: "collapse"}}>
             <thead>
               <tr>
                 <th style={{border: "solid 1px black", width: "120px", height: "20px", color: "white", background: "#404040"}}>ARTICULO</th>
@@ -58,7 +58,7 @@ console.log(data);
             </tbody> 
           </table>}
           {(data.last) && 
-          <div>
+          <div style={{marginTop: "10px"}}>
             <p>
               <strong>NOTA:</strong> Las cantidades entregadas pueden variar en un 2% aproximadamente, sobre el total de la orden
               <br />
@@ -68,7 +68,7 @@ console.log(data);
               Los precios aplican únicamente a las cantidades establecidas en este documento. 
             </p>
             <div style={{textAlign: "left", marginTop: "50px", marginBottom: "30px"}}>Condiciones comerciales:</div>
-            <table>
+            <table id='pdfConditionsTable'>
               <tr>
                 <td>- IVA:</td>
                 <td style={{paddingLeft: "20px"}}>19% Adicional</td>

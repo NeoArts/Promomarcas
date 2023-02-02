@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+
+*{
+  margin: 0;
+  padding: 0;
+  font-family: 'Poppins', sans-serif;
+}
+
+.primary-button{
+  width: 200px;
+  height: 40px;
+  color: white;
+  font-weight: bold;
+  background: #567FDC;
+  border-radius: 12px;
+  border: none;
+}
+
+.primary-button:hover{
+  cursor: pointer;
+}
+
+.absolute-button{
+  position: fixed;
+  bottom: 10px;
+  right: 20px;
+  background: #F72B31;
+  z-index: 999;
+}
+
+.absolute-button:hover{
+  cursor: pointer !important;
+}
+
+table td,
+.products-preview td{
+  padding: 10px;
+}
+
+.products-preview td{
+  min-height: 90px;
+}
+
+#pdfConditionsTable{
+  margin-bottom: 40px;
+}
+#pdfConditionsTable td{
+  padding: 0;
+}
+
+#form{
+  padding: 5%;
+}
+
+#form label{
+  display: inline-block;
+  width: 150px;
+  margin-bottom: 20px;
+}
+
+#form input{
+  width: 150px;
+}

@@ -109,7 +109,7 @@ function DocumentPreview( { data } : any) {
 
   return (
     <div>
-      <button onClick={downloadPdf}>Download pdf</button>
+      <button className='primary-button absolute-button' onClick={downloadPdf}>Download pdf</button>
       <div style={{
         width: "100%", 
         display: "flex", 
