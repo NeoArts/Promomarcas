@@ -1,5 +1,5 @@
 {
-  "homepage": "http://NeoArts.github.io/Promomarcas",
+  "homepage": "http://127.0.0.1/promomarcas/",
   "name": "file_creator",
   "version": "0.1.0",
   "private": true,
@@ -14,14 +14,15 @@
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "react-image-file-resizer": "^0.4.8",
+    "react-router-dom": "^6.9.0",
     "react-scripts": "5.0.1",
     "react-to-pdf": "^0.0.14",
     "web-vitals": "^2.1.4",
     "xlsx": "^0.18.5"
   },
   "scripts": {
-    "predeploy" : "npm run build",
-    "deploy" : "gh-pages -d build",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
