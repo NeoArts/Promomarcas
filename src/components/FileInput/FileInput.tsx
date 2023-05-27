@@ -29,7 +29,7 @@ function FileInput( {setProducts} ) {
     if (!file) {
       return;
     }
-    
+
     uploadFile(file).then((products) => {
       if(products){
         setProducts(products);

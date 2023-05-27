@@ -16,8 +16,8 @@ export const uploadFile = (file) => {
           /* do something with the workbook */
           const sheet = workbook.Sheets[workbook.SheetNames[0]];
           const range = XLSX.utils.decode_range(sheet['!ref']);
-
-          for (let row = (range.s.r + 1); row <= 10; row++) {
+          
+          for (let row = (range.s.r + 1); row <= 50; row++) {
               if (productIsValid(sheet, row)) {
                   let product = {
                       articulo: sheet[XLSX.utils.encode_cell({ r: row, c: 4 })].v,

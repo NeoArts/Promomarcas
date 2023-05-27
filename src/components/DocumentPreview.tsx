@@ -96,6 +96,7 @@ function DocumentPreview( { data } : any) {
     
     if(elements.length > 0){
       for(var i = 0; i < elements.length; i++){
+        debugger;
         pdf = await addPageToPDF(pdf, elements[i]);
         
         if(i !== elements.length - 1){
