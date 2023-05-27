@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/Promomarcas/static/css/main.f84a6f4f.css",
-    "main.js": "/Promomarcas/static/js/main.54394323.js",
-    "static/js/703.a70d556b.chunk.js": "/Promomarcas/static/js/703.a70d556b.chunk.js",
-    "static/js/347.6a78e218.chunk.js": "/Promomarcas/static/js/347.6a78e218.chunk.js",
-    "index.html": "/Promomarcas/index.html",
-    "main.f84a6f4f.css.map": "/Promomarcas/static/css/main.f84a6f4f.css.map",
-    "main.54394323.js.map": "/Promomarcas/static/js/main.54394323.js.map",
-    "703.a70d556b.chunk.js.map": "/Promomarcas/static/js/703.a70d556b.chunk.js.map",
-    "347.6a78e218.chunk.js.map": "/Promomarcas/static/js/347.6a78e218.chunk.js.map"
+    "main.css": "/promomarcas/static/css/main.f84a6f4f.css",
+    "main.js": "/promomarcas/static/js/main.b2aa71cb.js",
+    "static/js/703.a70d556b.chunk.js": "/promomarcas/static/js/703.a70d556b.chunk.js",
+    "static/js/97.2e56a604.chunk.js": "/promomarcas/static/js/97.2e56a604.chunk.js",
+    "index.html": "/promomarcas/index.html",
+    "main.f84a6f4f.css.map": "/promomarcas/static/css/main.f84a6f4f.css.map",
+    "main.b2aa71cb.js.map": "/promomarcas/static/js/main.b2aa71cb.js.map",
+    "703.a70d556b.chunk.js.map": "/promomarcas/static/js/703.a70d556b.chunk.js.map",
+    "97.2e56a604.chunk.js.map": "/promomarcas/static/js/97.2e56a604.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.f84a6f4f.css",
-    "static/js/main.54394323.js"
+    "static/js/main.b2aa71cb.js"
   ]
 }
